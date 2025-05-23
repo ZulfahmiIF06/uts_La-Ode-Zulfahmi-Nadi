@@ -1,0 +1,252 @@
+/* warna utama */
+.bg-grey {
+  background-color: rgb(55, 54, 54);
+}
+.text-White {
+  color: white;
+}
+.text-black {
+  color: black;
+  text-align: center;
+}
+body {
+  background-color: rgb(55, 54, 54);
+}
+
+
+/* jumbotron*/
+.hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fcfcfc;
+  text-align: center;
+  padding: 20px;
+   box-shadow: 0 2px 4px 0 rgba(91, 90, 90, 0.886), 0 6px 10px 0 rgb(122, 122, 122);
+}
+.hero h1 {
+  font-size: 60px;
+  margin: 0;
+  color: #fefafa;
+}
+.hero p {
+  font-size: 24px;
+  margin: 10px 0 30px;
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-box input[type="text"] {
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  width: 400px;
+  outline: none;
+}
+.search-box button {
+  padding: 15px 25px;
+  font-size: 18px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+.search-box button:hover {
+  background-color: #717070;
+}
+.btn {
+  border: solid;
+}
+
+
+/* tentang style */
+#about {
+  text-align: center;
+}
+.p1 {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
+}
+.judul {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  color: white;
+}
+
+/* KEUNGGULAN STYLING */
+#keunggulan {
+  text-align: center;
+}
+#keunggulan {
+  padding: 50px 0;
+  background-color: rgb(55, 54, 54);
+  color: #333;
+}
+
+#keunggulan h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+#keunggulan .card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  padding: 20px;
+}
+#keunggulan .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+#keunggulan .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgb(55, 54, 54);
+  margin-bottom: 15px;
+}
+#keunggulan .card-text {
+  font-size: 1rem;
+  color: #201f1f;
+}
+#keunggulan .card i {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+/*paket travel style*/
+#paket-travel {
+  background: linear-gradient(to bottom, #636262, #bfbebe);
+}
+#paket-travel h2 {
+  color: #f0f1f3;
+}
+#paket-travel .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+#paket-travel .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+#paket-travel .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+#paket-travel .card-title {
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+#paket-travel .text-muted {
+  font-size: 0.95rem;
+}
+.text-center {
+  text-align: center;
+}
+.btn3 {
+  background-color: rgb(55, 54, 54);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.btn3:hover {
+  background-color: rgb(147, 142, 142);
+}
+
+
+/* galeri style */
+#galeri {
+  background-color: rgb(55, 54, 54);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.gallery-img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+}
+
+
+/* footer */
+.footer .fw-semibold {
+  font-size: 0.95rem;
+  background-color: #636262;
+}
+.foot{
+  background-color: #a4a4a4;
+}
+.black{
+  color: #201f1f;
+}
+.red{
+  color: red;
+}
+.white{
+  color: #ffffff;
+}
+
+
+/* destinasi style */
+.destination-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(239, 237, 237, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.destination-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.destination-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(246, 244, 244, 0.3);
+}
+.destination-card:hover img {
+  transform: scale(1.05);
+}
+#destinasi{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+#keunggulan{
+   margin-left: 50px;
+  margin-right: 50px;
+}
